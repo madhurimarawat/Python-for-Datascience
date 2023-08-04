@@ -34,7 +34,7 @@ Python programs are written in editors and saved as the file with the .py extens
 
 <h1>Basic Datatypes</h1>
 
-![20638Python-Data-Types](https://github.com/madhurimarawat/Python-for-Datascience/assets/105432776/62c5b8d2-21f1-4515-9b8a-8acf12ea1a58)
+<img src= "https://github.com/madhurimarawat/Python-for-Datascience/assets/105432776/62c5b8d2-21f1-4515-9b8a-8acf12ea1a58" height=500px width=1010>
 
 <h2> Numbers</h2>
 ✓ Number data type stores numerical values only.<br><br>
