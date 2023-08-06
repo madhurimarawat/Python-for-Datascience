@@ -68,5 +68,6 @@ key or we need a association between the key : value pair.<br><br>
 to operate on array and matrices. </li>
   <li>Pandas (Panel Data/ Python Data Analysis) - This library is mostly used for analyzing,
 cleaning, exploring, and manipulating data.</li>
+<li>Matplotlib - It is a data visualization and graphical plotting library.</li>
   
 </ul>
