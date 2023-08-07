@@ -6,8 +6,7 @@ This repository contains basic programs in the python programming language.<br><
 
 <centre><h1>About Python Programming</h1></centre>
 --> Python is a high-level, general-purpose, and very popular programming language.<br><br>
---> Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.
-.<br><br>
+--> Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.<br><br>
 --> Python is available across widely used platforms like Windows, Linux, and macOS.<br><br>
 --> The biggest strength of Python is huge collection of standard library .<br>
 
