@@ -4,7 +4,7 @@ This repository contains basic programs in the python programming language.<br><
 
 ---
 
-<centre><h1>About Python Programming</h1></centre>
+# About Python Programming
 --> Python is a high-level, general-purpose, and very popular programming language.<br><br>
 --> Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.<br><br>
 --> Python is available across widely used platforms like Windows, Linux, and macOS.<br><br>
@@ -26,8 +26,7 @@ Installing Anaconda Software and using Jupyter Notebook.<br>
 Colaboratory, or “Colab” for short, is a product from Google Research which allows anybody to write and execute python code in Jupyter notebook through the browser.<br>
 
 <h2>2. Script mode</h2>
-Python programs are written in editors and saved as the file with the .py extension which can be executed further. <br>
-<br>
+Python programs are written in editors and saved as the file with the .py extension which can be executed further.<br>
 
 ---
 
@@ -62,6 +61,7 @@ key or we need a association between the key : value pair.<br><br>
 
 <h1>Libraries Used</h1>
 <p>Short Description about all libraries used.</p>
+To install python library this command is used- pip install library_name <br><br>
 <ul>
 <li>NumPy (Numerical Python) – Enables with collection of mathematical functions
 to operate on array and matrices. </li>
