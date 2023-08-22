@@ -61,7 +61,12 @@ key or we need a association between the key : value pair.<br><br>
 
 <h1>Libraries Used</h1>
 <p>Short Description about all libraries used.</p>
-To install python library this command is used- pip install library_name <br><br>
+To install python library this command is used-<br><br>
+
+```
+pip install library_name
+```
+
 <ul>
 <li>NumPy (Numerical Python) – Enables with collection of mathematical functions
 to operate on array and matrices. </li>
