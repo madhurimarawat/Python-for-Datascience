@@ -49,7 +49,7 @@ def print_directory_tree(root_dir, indent="", output_file=None):
 # --------------------------- GITHUB FUNCTION --------------------------- #
 def list_github_repo(owner, repo, indent="", output_file=None):
     """
-    Fetches and prints the directory structure of a public GitHub repository.
+    Fetches and prints the full directory structure of a public GitHub repository.
 
     Parameters:
     - owner (str): The username or organization that owns the repository.
@@ -58,13 +58,13 @@ def list_github_repo(owner, repo, indent="", output_file=None):
     - output_file (file object, optional): The file to which output should be written.
 
     Note:
-    - This function only works for **public** repositories.
-    - It retrieves the folder structure from the repository's `master` branch.
+    - Works only for **public** repositories.
+    - Uses GitHub's API to traverse directories recursively.
     """
-    url = f"https://api.github.com/repos/{owner}/{repo}/git/trees/master?recursive=1"
+    base_url = f"https://api.github.com/repos/{owner}/{repo}/git/trees/main?recursive=1"
 
     try:
-        response = requests.get(url)
+        response = requests.get(base_url)
 
         if response.status_code == 200:
             data = response.json()
@@ -74,22 +74,29 @@ def list_github_repo(owner, repo, indent="", output_file=None):
                 [item["path"] for item in tree]
             )  # Sort paths for consistency
             printed_folders = set()
+            last_seen_depth = -1
 
             for path in paths:
                 parts = path.split("/")
-                for i in range(len(parts)):
-                    subpath = "/".join(parts[: i + 1])
+                depth = len(parts) - 1
 
-                    if subpath not in printed_folders:
-                        is_last = i == len(parts) - 1
-                        prefix = "└── " if is_last else "├── "
-                        line = indent + prefix + parts[i]
+                # Handle indentation with │ for subdirectories
+                indent_str = "│   " * depth
 
-                        print(line)
-                        if output_file:
-                            output_file.write(line + "\n")
+                # Determine if it's the last item in the folder
+                is_last = path == paths[-1] or not any(
+                    p.startswith("/".join(parts[:-1]) + "/")
+                    for p in paths[paths.index(path) + 1 :]
+                )
+                prefix = "└── " if is_last else "├── "
 
-                        printed_folders.add(subpath)
+                line = indent_str + prefix + parts[-1]
+
+                print(line)
+                if output_file:
+                    output_file.write(line + "\n")
+
+                printed_folders.add(path)
 
         else:
             print(
@@ -138,4 +145,4 @@ if __name__ == "__main__":
     # main("local", r"C:\Users\rawat\Documents\Internship\Completed\IIT Bhilai Internship")
 
     # Example 2: Generate directory tree for a public GitHub repository
-    main("github", "torvalds/linux")
+    main("github", "madhurimarawat/Python-for-Datascience")
