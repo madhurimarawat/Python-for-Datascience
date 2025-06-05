@@ -38,9 +38,9 @@ import os
 from PIL import Image
 from pathlib import Path
 
-# 📁 Input and output folders
-INPUT_FOLDER = "assets"
-OUTPUT_FOLDER = "output_folder_assets_ss_png"
+# 📁 Define input and output folders here
+INPUT_FOLDER = "input_folder"  # 🔍 Folder with original images
+OUTPUT_FOLDER = "output_folder"  # 💾 Folder to save processed images
 
 # 🖼️ Supported image extensions
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".bmp", ".tiff"]
