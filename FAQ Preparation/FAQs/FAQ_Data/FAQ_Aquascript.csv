@@ -1,0 +1,108 @@
+Question,Answer,Category,Subcategory
+What is AquaScript?,AquaScript is a fast and developer-friendly platform for generating blazing-fast fake JSON data APIs.,Overview,General Info
+Who built AquaScript?,"It was crafted by Hanzla Baig, Precious Kelvin, and Madhurima Rawat at WeCoded.",Overview,Creators
+Is AquaScript free to use?,"Yes, it's free to use for development, testing, and prototyping.",Pricing,Free Usage
+Do I need to install anything to use AquaScript?,No installation is required — just grab the API URL and you're ready.,Setup,No Installation Required
+What kind of data can I generate?,"You can generate fake data like books, users, movies, quotes, and jokes.",API Details,Data Types
+Does AquaScript require authentication?,"No authentication is needed for now, but API keys are coming soon.",API Details,Authentication
+Can I contribute to AquaScript?,"Yes, contributions will be welcome soon! For now, you can star the project and share it.",Contributions,Getting Started
+Is AquaScript open source?,"Yes, AquaScript is open source.",Contributions,Open Source
+Where can I find AquaScript?,Visit https://aquascript-five.vercel.app to explore.,Links,Official Site
+What is the main goal of AquaScript?,"To empower developers with fast, reliable, and high-quality fake JSON data.",Overview,Purpose
+What technology stack does AquaScript use?,"It uses HTML5, CSS3, JavaScript, Bootstrap, jQuery, and JSON.",Technology,Tech Stack
+Does AquaScript have a live demo?,A live demo is coming soon — stay tuned!,Updates,Live Demo
+What makes AquaScript developer-friendly?,"It offers clean endpoints, fast responses, and easy integration without any setup.",Features,Developer Experience
+Is AquaScript suitable for frontend developers?,"Yes, it's perfect for frontend UI prototyping and development.",Usage,Frontend
+Can I use AquaScript to test backend endpoints?,"Yes, it's great for testing backend APIs without using real data.",Usage,Backend Testing
+What is the Quotes API?,"It provides thousands of inspirational, funny, and motivational quotes.",API Details,Quotes API
+What is the Books API?,"It gives access to book data including titles, authors, and genres.",API Details,Books API
+What is the Movies API?,"It provides detailed movie information, cast, ratings, and availability.",API Details,Movies API
+What is the Jokes API?,"Clean, family-friendly jokes perfect for fun and entertainment.",API Details,Jokes API
+Is AquaScript scalable?,"Yes, it's lightweight and built for scalability.",Performance,Scalability
+Can AquaScript help with mockup design?,Absolutely! It's perfect for building and testing mock UI designs.,Usage,UI Mockups
+Do I need an account to use AquaScript?,"No, you can use it directly — no sign-up required.",Setup,No Account Needed
+Are there limits on API usage?,"Currently, no usage limits are enforced — just use responsibly.",API Details,Usage Limits
+Can AquaScript be used in mobile apps?,"Yes, you can integrate it with both web and mobile projects.",Usage,Mobile Apps
+Will more APIs be added?,"Yes, more categories and endpoints are planned in future updates.",Updates,API Expansions
+What does the AquaScript logo represent?,"It reflects speed, flow, and developer-friendliness — like water.",Branding,Logo Meaning
+Is AquaScript actively maintained?,"Yes, it’s under active development with ongoing improvements.",Maintenance,Ongoing Development
+How fast are the API responses?,They are ultra-fast to ensure a smooth dev experience.,Performance,Speed
+Can I customize the data returned?,Custom data structure options are coming soon.,Features,Customization
+How do I integrate AquaScript into my project?,Just fetch the endpoint via HTTP in your frontend/backend code.,Integration,General Integration
+Are the APIs RESTful?,"Yes, AquaScript APIs follow REST principles.",API Details,API Type
+Is there any rate-limiting?,"Currently no, but minimal throttling may be added later for stability.",API Details,Rate Limiting
+Can I use AquaScript offline?,"No, it's an online service — internet is required.",Usage,Offline Use
+Does AquaScript offer GraphQL?,Not yet — REST APIs are currently supported.,API Details,GraphQL Support
+What formats are supported?,JSON is the default and only format right now.,API Details,Supported Formats
+Is there an official documentation?,Documentation will be released alongside the stable version.,Documentation,Official Docs
+Is AquaScript beginner-friendly?,Absolutely! It's designed to be easy for beginners and pros alike.,Usage,Ease of Use
+Can I request a new API category?,"Yes, suggestions are welcome via GitHub or feedback forms.",Contributions,Feature Requests
+Does it work with React or Angular?,"Yes, any frontend framework that supports API calls can use it.",Integration,Frontend Frameworks
+Can I use it with Python requests?,"Yes, it's compatible with all HTTP clients, including Python requests.",Integration,Python Requests
+Is SSL supported?,"Yes, all endpoints are served over HTTPS.",Security,SSL Support
+Does AquaScript store user data?,No user data is stored or tracked.,Security,Data Privacy
+Is it suitable for hackathons?,Yes! It speeds up prototyping immensely.,Usage,Hackathons
+How secure is AquaScript?,It's secure for non-sensitive dev purposes — no auth needed yet.,Security,Security
+What are some use cases?,"UI prototyping, testing HTTP libraries, teaching, mock demos, etc.",Usage,Use Cases
+Is there a dark mode UI?,Coming soon in the next UI update!,Updates,UI Update
+Can AquaScript mimic pagination?,Planned in future versions with support for limit/offset parameters.,Features,Pagination
+Will there be a paid version?,Possibly — premium APIs and high-volume tiers may be introduced.,Pricing,Paid Version
+Where is the AquaScript GitHub repository?,You can find it at https://github.com/wecoded-dev/Aquascript,GitHub,Repository Link
+Can I contribute via GitHub?,"Yes, fork the repo on GitHub and feel free to submit pull requests!",GitHub,Contribution
+Where can I read blogs or announcements about AquaScript?,Follow https://dev.to/aquascript for updates and technical articles.,Dev.to,Blogs & Announcements
+Does AquaScipt publish changelogs or updates?,"Yes, important updates are posted on GitHub and Dev.to.","GitHub, Dev.to",Updates & Changelogs
+Is the AquaScript GitHub repository open for issues?,"Yes, you can report bugs or request features via GitHub Issues.",GitHub,Issues
+What is the Aquascript Movies API?,"It's a JSON-based API offering movie metadata including genres, directors, download links, and more.",Movies API,General
+What types of data does the Movies API provide?,"It provides movie titles, release year, genres, directors, and download links.",Movies API,General
+Is the Movies API free to use?,"Yes, the Movies API is free for public use and can be accessed without any cost.",Movies API,General
+What format is the data returned in?,"The data is returned in JSON format, which can be easily processed in JavaScript.",Movies API,General
+What does moviesdata.json contain?,"It contains an array of movie genres and a list of movie objects with basic details like title, year, and director.",Movies API,Data Format
+What extra information does moviesdata++.json provide?,"It includes tags, director, release date, quality, size, direct download links, and poster images.",Movies API,Data Format
+Can I filter movies by genre using the Movies API?,"Yes, movies are categorized by genre in the moviesdata.json file, which allows filtering.",Movies API,Data Format
+How are movie images structured in the API?,"Images are provided with URLs, pointing to the movie posters, accessible in the image field of each movie object.",Movies API,Data Format
+How can I fetch movie data using JavaScript?,Use fetch('path/to/moviesdata.json').then(response => response.json()).then(data => { /* handle data */ });,Movies API,Usage
+How can I fetch extended movie data using JavaScript?,Use fetch('path/to/moviesdata++.json').then(response => response.json()).then(data => { /* handle extended data */ });,Movies API,Usage
+How can I display the fetched movie data on a webpage?,You can loop through the movie data in JavaScript and dynamically generate HTML elements to display each movie's details.,Movies API,Usage
+How can I use JavaScript to create movie cards?,"Create a div for each movie with elements like title, year, genres, director, and poster, then append these to the main list container.",Movies API,Usage
+What are best practices for using the Movies API?,"Validate links, lazy load images, use semantic HTML, and handle API errors gracefully.",Movies API,Best Practices
+How should I handle broken movie links?,"Always check the validity of external URLs (e.g., download links) and handle them with proper error messaging.",Movies API,Best Practices
+What is lazy loading and how does it improve performance?,"Lazy loading involves loading images only when they are about to be visible on the screen, improving page load time.",Movies API,Best Practices
+How can I handle errors gracefully while fetching movie data?,"Use `.catch()` to handle errors in the fetch request, and display a user-friendly message if data can't be loaded.",Movies API,Best Practices
+What is the Aquascript Book API?,"It's a lightweight JSON RESTful API that provides metadata for books such as author, country, language, and publication year.",Books API,General
+How can I use the Books API in my app?,"You can use the Books API to display books, their metadata, and add functionality like sorting or filtering based on attributes like author or year.",Books API,General
+What data is returned for each book in the Books API?,"Each book object contains title, author, language, country, image link, Wikipedia link, pages, and publication year.",Books API,Data Format
+How is the book cover image structured in the Books API?,The image link field in each book object contains the URL of the book's cover image.,Books API,Data Format
+How do I fetch book data using JavaScript?,Use fetch('https://wecoded-dev.github.io/Aquascript/api/books.json') and parse the JSON response.,Books API,Usage
+How can I display book data on a webpage?,"Loop through the book objects and create HTML elements (e.g., divs, images, and paragraphs) to display the data.",Books API,Usage
+What are the best practices for using the Books API?,"Validate URLs, use lazy loading for images, structure content semantically, and add error handling.",Books API,Best Practices
+How should I handle broken book links?,Always check if the external URLs (like Wikipedia) are valid before linking them in your app.,Books API,Best Practices
+Where can I find the Aquascript Movies API?,The Movies API can be accessed through the GitHub repository or via the provided JSON endpoints.,Movies API,Community & Source
+Where can I find the Aquascript Book API?,The Books API is hosted at https://wecoded-dev.github.io/Aquascript/api/books.json.,Books API,Community & Source
+What is the GitHub repository for the Movies API?,The GitHub repository for the Movies API is https://github.com/wecoded-dev/Aquascript.,Movies API,Community & Source
+What is the Dev.to page for the Movies API?,The Dev.to page for the Movies API is https://dev.to/aquascript.,Movies API,Community & Source
+Where can I access the source code for the Books API?,You can access the Books API source code on GitHub at https://github.com/wecoded-dev/Aquascript.,Books API,Community & Source
+Where can I find developer discussions about the Books API?,You can follow discussions about the Books API on Dev.to at https://dev.to/aquascript.,Books API,Community & Source
+What is AquaScript's JSON API used for?,AquaScript provides a fake JSON API for testing and prototyping purposes. The data is randomly generated and not real.,General,Terms & Conditions
+What is considered acceptable use of AquaScript's API?,"You may use the API for lawful testing and prototyping. Misuse, including illegal, harmful, or disruptive behavior, is prohibited.",Acceptable Use,Terms & Conditions
+Can I reverse engineer the AquaScript API?,"No, reverse engineering, decompiling, or disassembling any part of the Services is strictly prohibited.",Acceptable Use,Terms & Conditions
+Are there any usage limits for AquaScript's API?,"Yes, AquaScript may limit requests, throttle access, or block usage if it detects excessive or abusive behavior.",API Usage,Terms & Conditions
+Can AquaScript change or discontinue the API?,"Yes, AquaScript reserves the right to modify or discontinue the Services at any time without prior notice.",API Usage,Terms & Conditions
+Is AquaScript's API guaranteed to be accurate or reliable?,"No, the API is provided 'as is' without any warranty. Results may not be accurate or reliable.",No Warranty,Terms & Conditions
+Will the API be always available without errors?,"No, AquaScript does not guarantee uninterrupted or error-free access to its Services.",No Warranty,Terms & Conditions
+Is AquaScript liable for issues caused by using the API?,"No, AquaScript and its creators are not liable for indirect, incidental, or consequential damages resulting from API usage.",Limitation of Liability,Terms & Conditions
+Who owns the API structure and documentation?,"All API content, including structure and documentation, is the property of AquaScript and protected by intellectual property laws.",Intellectual Property,Terms & Conditions
+Can AquaScript change its Terms & Conditions?,"Yes, the Terms may be updated at any time, and continued use implies acceptance of the changes.",Changes to Terms,Terms & Conditions
+Which laws govern AquaScript's Terms & Conditions?,"The Terms are governed by the laws of the State of California, regardless of conflict of law principles.",Governing Law,Terms & Conditions
+How can I contact AquaScript with questions about the Terms?,You can reach out to AquaScript via email at support@aquascript.xyz for any inquiries.,Contact Information,Terms & Conditions
+What is AquaScript's JSON API used for?,AquaScript provides a fake JSON API for testing and prototyping purposes. The data is randomly generated and not real.,General,Terms & Conditions
+What is considered acceptable use of AquaScript's API?,"You may use the API for lawful testing and prototyping. Misuse, including illegal, harmful, or disruptive behavior, is prohibited.",Acceptable Use,Terms & Conditions
+Can I reverse engineer the AquaScript API?,"No, reverse engineering, decompiling, or disassembling any part of the Services is strictly prohibited.",Acceptable Use,Terms & Conditions
+Are there any usage limits for AquaScript's API?,"Yes, AquaScript may limit requests, throttle access, or block usage if it detects excessive or abusive behavior.",API Usage,Terms & Conditions
+Can AquaScript change or discontinue the API?,"Yes, AquaScript reserves the right to modify or discontinue the Services at any time without prior notice.",API Usage,Terms & Conditions
+Is AquaScript's API guaranteed to be accurate or reliable?,"No, the API is provided 'as is' without any warranty. Results may not be accurate or reliable.",No Warranty,Terms & Conditions
+Will the API be always available without errors?,"No, AquaScript does not guarantee uninterrupted or error-free access to its Services.",No Warranty,Terms & Conditions
+Is AquaScript liable for issues caused by using the API?,"No, AquaScript and its creators are not liable for indirect, incidental, or consequential damages resulting from API usage.",Limitation of Liability,Terms & Conditions
+Who owns the API structure and documentation?,"All API content, including structure and documentation, is the property of AquaScript and protected by intellectual property laws.",Intellectual Property,Terms & Conditions
+Can AquaScript change its Terms & Conditions?,"Yes, the Terms may be updated at any time, and continued use implies acceptance of the changes.",Changes to Terms,Terms & Conditions
+Which laws govern AquaScript's Terms & Conditions?,"The Terms are governed by the laws of the State of California, regardless of conflict of law principles.",Governing Law,Terms & Conditions
+How can I contact AquaScript with questions about the Terms?,You can reach out to AquaScript via email at support@aquascript.xyz for any inquiries.,Contact Information,Terms & Conditions
